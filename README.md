@@ -33,6 +33,6 @@ Checkbox value can be
 2 => checked
 ```
 
-## Authors
+## Author
 
 * **Emmanuel Bens**
