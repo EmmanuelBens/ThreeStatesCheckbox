@@ -4,6 +4,7 @@
 
 Script able you to use a checkbox with three states
 
+![three states checkbox image](https://github.com/EmmanuelBens/ThreeStatesCheckbox/blob/master/2018-08-22_17h46_56.png)
 
 ## Getting Started
 
