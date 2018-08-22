@@ -1,0 +1,33 @@
+<script type="text/javascript" src="threeStatesCheckbox.js"></script>
+<input type="checkbox" class="threeStatesInput" id="test1" />
+<label for="test1">input1</label>
+<br/>
+<input type="checkbox" class="threeStatesInput" id="test2" />
+<label for="test2">input2</label>
+<br/>
+<input type="checkbox" class="threeStatesInput" id="test3" />
+<label for="test3">input3</label>
+<br/>
+<br/>
+
+<div>
+    <div>input1's value:
+        <span id="valueInput1"></span>
+    </div>
+    <div>input2's value:
+        <span id="valueInput2"></span>
+    </div>
+    <div>input3's value:
+        <span id="valueInput3"></span>
+    </div>
+</div>
+
+<script type="text/javascript">
+    document.querySelectorAll(".threeStatesInput").forEach(function (element) {
+        element.onchange = function () {
+            document.getElementById("valueInput1").innerHTML = document.getElementById("test1").value
+            document.getElementById("valueInput2").innerHTML = document.getElementById("test2").value
+            document.getElementById("valueInput3").innerHTML = document.getElementById("test3").value
+        }
+    })
+</script>
